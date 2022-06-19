@@ -5,8 +5,12 @@ const server = express();
 
 server.use([cors(), express.json()]);
 
+
+
 const tweets = [];
 const usuarios = [];
+
+
 
 server.post("/sign-up", (req, res) => {
 
